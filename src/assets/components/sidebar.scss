@@ -1,0 +1,36 @@
+.sidebar {
+    display: flex;
+
+    .menu {
+        min-height: 100vh;
+        max-height: 100%;
+        background-color: #232e44;
+        display: flex;
+        flex-direction: column;
+
+        a {
+            color: #fff !important;
+            padding: 12px 32px;
+            white-space: nowrap;
+            text-decoration: none;
+            transition: 0.3s;
+            
+            &:hover {
+                background-color: lightskyblue;
+            }
+
+            &:first-child {
+                margin-top: 24px;
+            }
+        }
+
+        .active {
+            background-color: lightskyblue;
+        }
+    }
+
+    main {
+        width: 100%;
+        padding: 24px;
+    }
+}

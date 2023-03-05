@@ -1,0 +1,22 @@
+.excel-export-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 8px;
+    outline: none;
+    border: none;
+    background-color: #008000;
+    color: #fff !important;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: auto;
+
+    &:hover {
+        opacity: 0.8;
+    }
+
+    img {
+        filter: invert(1);
+    }
+}
