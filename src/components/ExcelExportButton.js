@@ -1,5 +1,5 @@
 import { Button } from "reactstrap";
-import excel from "../../assets/images/excel.png";
+import excel from "../assets/images/excel.png";
 
 const ExcelExportButton = ({ onClick }) => {
   return (

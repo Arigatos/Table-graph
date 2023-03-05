@@ -1,15 +1,15 @@
 import { useDispatch, useSelector } from "react-redux";
+import { Button } from "reactstrap";
 
 import {
   selectTotalPages,
   selectNextPage,
   selectPeviousPage,
-} from "../../store/characters/selectors";
+} from "../store/characters/selectors";
 import {
   fetchFilteredCharacters,
   changePage,
-} from "../../store/characters/actions";
-import { Button } from "reactstrap";
+} from "../store/characters/actions";
 
 const TablePagination = ({ setSortOrder, setSortedCharacters }) => {
   const dispatch = useDispatch();

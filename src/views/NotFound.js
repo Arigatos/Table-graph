@@ -1,4 +1,4 @@
-import PageTitle from "../components/sidebar/PageTitle";
+import PageTitle from "../components/PageTitle";
 
 const NotFound = () => {
   return (

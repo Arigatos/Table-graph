@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 import ImagePreview from "./ImagePreview";
-import close from "../../assets/images/close.png";
+import close from "../assets/images/close.png";
 
 const InfoModal = ({ active, toggle, isOpen }) => {
   return (

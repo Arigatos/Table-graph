@@ -1,8 +1,14 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
-import PageTitle from "../components/sidebar/PageTitle";
 import { columnsHeader } from "./helper";
+import PageTitle from "../components/PageTitle";
+import TextWithTooltip from "../components/TextWithTooltip";
+import Search from "../components/Search";
+import InfoModal from "../components/InfoModal";
+import TablePagination from "../components/TablePagination";
+import Loader from "../components/Loader";
+import arrowDown from "../assets/images/arrow-down.png";
 
 import {
   fetchCharacters,
@@ -12,13 +18,6 @@ import {
   selectCharacters,
   selectIsLoading,
 } from "../store/characters/selectors";
-
-import arrowDown from "../assets/images/arrow-down.png";
-import TextWithTooltip from "../components/sidebar/TextWithTooltip";
-import Search from "../components/sidebar/Search";
-import InfoModal from "../components/sidebar/InfoModal";
-import TablePagination from "../components/sidebar/TablePagination";
-import Loader from "../components/Loader";
 
 const TableData = () => {
   const dispatch = useDispatch();

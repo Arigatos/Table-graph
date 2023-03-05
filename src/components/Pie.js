@@ -6,7 +6,7 @@ import * as XLSX from "xlsx/xlsx.mjs";
 import download from "downloadjs";
 
 import ExcelExportButton from "./ExcelExportButton";
-import { selectPieChartData } from "../../store/characters/selectors";
+import { selectPieChartData } from "../store/characters/selectors";
 
 HighchartsMore(Highcharts);
 

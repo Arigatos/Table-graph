@@ -1,5 +1,5 @@
-import PageTitle from "../components/sidebar/PageTitle";
-import Pie from "../components/sidebar/Pie";
+import PageTitle from "../components/PageTitle";
+import Pie from "../components/Pie";
 
 const PieChartPage = () => {
   return (

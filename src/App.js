@@ -1,6 +1,6 @@
 import "./App.css";
 import "./assets/main.scss";
-import Sidebar from "./components/sidebar/Sidebar";
+import Sidebar from "./components/Sidebar";
 import DashboardRoutes from "./routing";
 
 const App = () => {
